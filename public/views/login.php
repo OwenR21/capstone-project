@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="public/css/style.css">
 </head>
 <body>
     <div class="bg-image"></div> 
     <div class="login-container">
-        <form class="login-form">
+        <form class="login-form" action="index.php" method="post">
             <h2>Login</h2>
             <div class="input-group">
                 <label for="username">Username</label>
@@ -25,7 +25,6 @@
     </div>
 </body>
 
-
     <script>
         function login() {
             var username = document.getElementById('username').value;
@@ -34,12 +33,12 @@
             // Basic check for username and password
             if(username === 'admin' && password === 'password') {
                 // alert('Login Successful'); shows  login successful messafe
-                window.location.href = 'dashboard.html';
+                window.location.href = '/capstone-website/dashboard';
             } else {
                 // Show error message
                 document.getElementById('loginError').style.display = 'block';
             }
         }
     </script>
-</body>
+    
 </html>
