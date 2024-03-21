@@ -67,8 +67,8 @@ Lastly, you can hard code in your environment variables in a `dotenv.php` file (
 ![Image of how to hard code environment variables in a dotenv.php file](./documentation_photos/example_database_login_information.png)
 
 ## Authors
-**Owen Rosel**
-- [Github](https://github.com/OwenR21)
-**Chris Chandler**
-**James Lyerla**
-- [GitHub](https://github.com/lyerlajd)
+- **Owen Rosel**
+    - [Github](https://github.com/OwenR21)
+- **Chris Chandler**
+- **James Lyerla**
+    - [GitHub](https://github.com/lyerlajd)
