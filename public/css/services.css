@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif; /* Or any other sans-serif font */
+    line-height: 1.6;
+    color: #333; /* Dark grey text color */
+}
+
+.service-container {
+    width: 80%;
+    margin: 0 auto; /* Centers the container */
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #0057b7; /* Styling for the main service title */
+    font-size: 50px; /* Large font size for the main title */
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-left: 350px;
+    margin-right: 350px;
+    color: #000; /* Black color for subtitles */
+    font-size: 28px; /* Subtitle size */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px; /* Regular text size */
+    margin-bottom: 20px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+/* Additional responsive design styles */
+@media (max-width: 768px) {
+    .service-container {
+        width: 95%; /* Slightly more padding on smaller screens */
+    }
+}
