@@ -30,10 +30,13 @@ $routes = [
     '/oil-change' => $viewsDirPath . 'services/oil-change.php', // Oil Change service page
     '/brake-services' => $viewsDirPath . 'services/brake-services.php',
     '/wheel-alignment' => $viewsDirPath . 'services/wheel-alignment.php',
-
-
-
-
+    '/battery-replacement' => $viewsDirPath . 'services/battery-replacement.php',
+    '/radiator-flush' => $viewsDirPath . 'services/radiator-flush.php',
+    '/air-conditioning-service' => $viewsDirPath . 'services/air-conditioning-service.php',
+    '/transmission-service' => $viewsDirPath . 'services/transmission-service.php',
+    '/tire-service' => $viewsDirPath . 'services/tire-service.php',
+    '/diagnostic-service' => $viewsDirPath . 'services/diagnostic-service.php',
+    '/headlights-replacement' => $viewsDirPath . 'services/headlights-replacement.php',
 ];
 
 /*----------------------------------------------------------------------------------------------*/

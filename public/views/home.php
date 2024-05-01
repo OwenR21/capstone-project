@@ -83,6 +83,7 @@
         As a locally owned and operated business, we are deeply rooted in the Columbia community. We take pride in giving back through community involvement and supporting local initiatives. When you choose Allee Autobody, you're not just choosing a repair shop—you're choosing a partner in your automotive journey.</p>
         Thank you for choosing Allee Autobody for your automotive needs. We look forward to continuing to serve you for many more years to come.</p>
     </section>
+    
     <section id="contact" class="contact">
         <h3>Contact Us</h3>
         <p>Book your appointment today: <strong>(573)-673-9309</strong> or <a href="mailto: AlleeAutobody@outlook.com">AlleeAutobody@outlook.com</a></p>
