@@ -83,7 +83,10 @@
         As a locally owned and operated business, we are deeply rooted in the Columbia community. We take pride in giving back through community involvement and supporting local initiatives. When you choose Allee Autobody, you're not just choosing a repair shop—you're choosing a partner in your automotive journey.</p>
         Thank you for choosing Allee Autobody for your automotive needs. We look forward to continuing to serve you for many more years to come.</p>
     </section>
-    
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3099.3658518052944!2d-92.45123728798471!3d39.02977713876349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87dccb46781ec3f3%3A0x19e6755462caf2cc!2s6201%20N%20Locust%20Grove%20Church%20Rd%2C%20Columbia%2C%20MO%2065202!5e0!3m2!1sen!2sus!4v1714588108402!5m2!1sen!2sus"
+         width="2000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
     <section id="contact" class="contact">
         <h3>Contact Us</h3>
         <p>Book your appointment today: <strong>(573)-673-9309</strong> or <a href="mailto: AlleeAutobody@outlook.com">AlleeAutobody@outlook.com</a></p>
