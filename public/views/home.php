@@ -63,7 +63,7 @@
         <div class="service-list">
             <a href="oil-change" class="service" >Oil Changes</a>
             <a href="brake-services" class="service">Brake Services</a>
-            <a href="wheel-alignment;" class="service">Wheel Alignment</a>
+            <a href="wheel-alignment" class="service">Wheel Alignment</a>
             <a href="battery-replacement" class="service">Battery Replacement</a>
             <a href="radiator-flush" class="service">Radiator Flush</a>
             <a href="air-conditioning-service" class="service">Air Conditioning Service</a>

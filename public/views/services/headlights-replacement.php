@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Brake Service - Allee Autobody</title>
+    <title>Headlights Replacement - Allee Autobody</title>
     <link rel="stylesheet" href="public/css/services.css"> 
 </head>
 <body>
