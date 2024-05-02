@@ -1,0 +1,76 @@
+{
+  "ID": "244152b61bf9662c4f1d545a5d75a55941cbb026a98a8810375d2f95df511f3c",
+  "Name": "cloudflared-1",
+  "Type": "docker",
+  "Image": "cloudflare/cloudflared:latest",
+  "ImageID": "sha256:2bc80beb872a3fe591e380bc36975305b0f18d93c2beb8a3124f13a3ab95f1db",
+  "Status": "running",
+  "DockerStatus": {
+    "Running": true,
+    "Paused": false,
+    "Restarting": false,
+    "Dead": false,
+    "ExitCode": 0,
+    "StartedAt": "2024-03-27T15:44:20.23123467Z",
+    "FinishedAt": "0001-01-01T00:00:00Z",
+    "Health": ""
+  },
+  "CPULimit": -1,
+  "MemLimit": -1,
+  "MemReservation": -1,
+  "CpusetCpus": "",
+  "Networks": [
+    {
+      "ID": "58b2da002b0dba17d796cbd8f8c54d22b96511531f84c6668b80192962129b17",
+      "Name": "host",
+      "HostName": "",
+      "IPAddress": "",
+      "MacAddress": "",
+      "Gateway": "",
+      "Type": "",
+      "IsStaticIP": false,
+      "EndpointID": "ffcfc4a1c3a1e164f584166ecaeb55013664419ce01249487467d13a3878b2c0"
+    }
+  ],
+  "Pid": 22650,
+  "Labels": {
+    "org.opencontainers.image.source": "https://github.com/cloudflare/cloudflared"
+  },
+  "Runtime": "runc",
+  "Created": "2024-03-27T15:44:18.234067808Z",
+  "StartedAt": "2024-03-27T15:44:20.23123467Z",
+  "FinishedAt": "0001-01-01T00:00:00Z",
+  "Cmd": [
+    "tunnel",
+    "run",
+    "--token",
+    "eyJhIjoiNDNlYTEwNzg0OTI0MDllYjE5YjQyZGE4OTlkNTJhZGUiLCJ0IjoiMTA2Y2I3ODAtMTFmNi00MDllLWEzZjktNWE2MmRhNmZlOTlkIiwicyI6IlpXTmtNVGM1WldRdFpEUm1OaTAwTWpZMExXSXpOalF0T1RFMVpHUmhaamN5WWpsaiJ9"
+  ],
+  "PortBindings": null,
+  "Volumes": null,
+  "Env": [
+    "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+    "SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt"
+  ],
+  "Privileged": false,
+  "Entrypoint": [
+    "cloudflared",
+    "--no-autoupdate"
+  ],
+  "RestartPolicy": {
+    "name": "always",
+    "maximumRetryCount": 0
+  },
+  "URL": "",
+  "Devices": [],
+  "Mounts": [],
+  "Tty": true,
+  "OpenStdin": true,
+  "AutoRemove": false,
+  "Hostname": "NAS282436",
+  "UsedByInternalSrv": "na",
+  "Dev": null,
+  "ExposedPorts": [],
+  "DNS": [],
+  "Cpupin": null
+}
