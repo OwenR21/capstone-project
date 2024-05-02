@@ -1,3 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 /* Reset styles and basic setup */
 body, h1, h2, h3, p, ul, li, figure, figcaption {
     margin: 0;
@@ -56,11 +62,11 @@ body {
 
 .header-picture {
     background-image: url('../pictures/homepicture3.jpeg'); 
-    background-position: center top;/* Adjust the path as needed */
-    height: 100px; /* Set the height according to your design needs */
-    background-position: center; /* Centers the image */
-    background-size: cover; /* Cover ensures the image covers the full area, may zoom in slightly */
-    width: 100%; /* Ensures the section is full width */
+    background-position: center top;
+    height: 100px; 
+    background-position: center; 
+    background-size: cover; 
+    width: 100%; 
     filter: brightness(120%) contrast(120%) saturate(150%);
 }
 
@@ -182,12 +188,48 @@ body {
 .service {
     background: lightgray;
     padding: 10px;
-    border-radius: 5px;
-    width: 30%;
+    border-radius: 10px;
+    width: 25%;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     text-decoration: none;
     color: #333;
+    margin: 10px;  
+    transition: background-color 0.3s ease; 
 }
+
+.service:hover {
+    background-color: #b0c4de; 
+    color: #000; 
+}
+
+
+
+/* About Section Styling */
+.about {
+    background-color: #f8f9fa;  
+    margin: 20px auto;          
+    padding: 40px;              
+    max-width: 800px;           
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    border-radius: 10px;        
+    text-align: center;         
+}
+
+.about h3 {
+    color: black;            
+    margin-bottom: 20px;       
+    font-size: 24px;            
+}
+
+.about p {
+    color: #666;                
+    line-height: 1.6;          
+    margin-bottom: 20px;       
+    text-align: justify;       
+}
+
+
+
 
 /* Footer styles */
 footer {
