@@ -75,6 +75,7 @@
     </section>
 
 
+
     <section id="about" class="about">
         <h3>About Us</h3>
         <p>Allee Autobody was established in 1998 when our dedicated owners made the move from North Dakota to Columbia, Missouri. Since then, we have been proud to serve the Columbia community and its surrounding areas with exceptional automotive care.</p>
@@ -91,9 +92,9 @@
         <h3>Contact Us</h3>
         <p>Book your appointment today: <strong>(573)-673-9309</strong> or <a href="mailto: AlleeAutobody@outlook.com">AlleeAutobody@outlook.com</a></p>
     </section>
-    <footer>
-        <p>© 2024 Allee Auto. All rights reserved.</p>
-    </footer>
+
+    <?php include 'partials/footer.php'; ?>
+
 </body>
 </html>
 
