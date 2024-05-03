@@ -14,7 +14,7 @@ This website is built and hosted using Apache and PHP. You can download all of t
 
 This repository focuses on the website portion through PHP. Below is our project file structure. To ensure the project will work right, you can use the same file structure (making sure to include your own file for `.gitignore`).
 
-![Image of file tree](./documentation_photos/file_tree.png)
+![Image of file tree](./documentation_photos/file_tree2.png)
 
 ### Tools Required
 - A text editor or IDE
