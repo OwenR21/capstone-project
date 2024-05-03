@@ -1,0 +1,31 @@
+/* Reset styles and basic setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: white; 
+}
+
+main {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 60vh;
+}
+
+h1 {
+    font-size: 40px;  
+    color: black;  
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}

@@ -7,9 +7,6 @@
 // Starting session
 session_start();
 
-// Adding values to $_SESSION associative array
-$_SESSION['cssDir'] = __DIR__ . '/public/css/';
-
 /*----------------------------------------------------------------------------------------------*/
 // Request handling
 
@@ -18,17 +15,18 @@ $viewsDirPath = __DIR__ . '/public/views/';
 
 // Taking incoming requests and parsing the path for the router
 $request = $_SERVER['REQUEST_URI'];
-$uri = str_replace("/capstone-website","",parse_url($request)['path']);
+$uri = parse_url($request)['path'];
 
 // Associative array of uri paths and associated php file destinations
 $routes = [
-    '' => $viewsDirPath . 'home.php', // Set as new homepage
-    '/' => $viewsDirPath . 'home.php', // Set as new homepage
-    '/index.php' => $viewsDirPath . 'home.php', // Explicitly set homepage
-    '/invoice' => $viewsDirPath . 'invoice.php',
-    //'/login' => $viewsDirPath . 'login.php', // Dedicated login route
-    //'/dashboard' => $viewsDirPath . 'dashboard.php', // Dashboard access
-    '/oil-change' => $viewsDirPath . 'services/oil-change.php', // Oil Change service page
+    // Set routes to homepage
+    '' => $viewsDirPath . 'home.php',
+    '/' => $viewsDirPath . 'home.php',
+    '/index.php' => $viewsDirPath . 'home.php',
+    '/home' => $viewsDirPath . 'home.php',
+    
+    // Set routes to services pages
+    '/oil-change' => $viewsDirPath . 'services/oil-change.php', 
     '/brake-services' => $viewsDirPath . 'services/brake-services.php',
     '/wheel-alignment' => $viewsDirPath . 'services/wheel-alignment.php',
     '/battery-replacement' => $viewsDirPath . 'services/battery-replacement.php',
@@ -44,12 +42,14 @@ $routes = [
 // Routing users
 
 switch (true) {
+    // Route user to correct page
     case (array_key_exists($uri, $routes)):
         require $routes[$uri];
         break;
+    
+    // Else route user to error 404 page
     default:
         http_response_code(404);
-        require $viewsDirPath . '404.php';
+        require 'public/views/404.php';
         die();
 }
-
