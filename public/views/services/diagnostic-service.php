@@ -14,9 +14,9 @@
 
     <main>
         <div class="service-container">
-            <h1>Air Conditioning Service</h1>
+            <h1>Air Diagnostic Service</h1>
             <section class="service-detail">
-                <h2>What is Air Diagnostic Service?</h2>
+                <h2>What is Diagnostic Service?</h2>
                 <p>Diagnostic service is a comprehensive procedure designed to identify and troubleshoot issues with your vehicle's onboard computer systems, mechanical components, and electrical systems. Modern vehicles are equipped with sophisticated diagnostic systems that monitor various vehicle functions and components, such as the engine, transmission, brakes, and emissions systems.
                     When your vehicle experiences a problem or exhibits warning signs, diagnostic service involves using specialized diagnostic tools and equipment to retrieve diagnostic trouble codes (DTCs) stored in the vehicle's computer system. These codes provide valuable information about the nature and source of the problem, allowing our skilled technicians to diagnose the issue accurately and efficiently.<br>
                     <strong>Initial Inspection:</strong> Our technicians will perform a visual inspection of your vehicle and listen to your description of the symptoms or issues you're experiencing. This helps to narrow down the possible causes of the problem.<br>

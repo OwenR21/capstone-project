@@ -42,14 +42,9 @@
     
     <div class="blue-content">
         <h4>Allee Autobody and Autocare </h4>
-        <p>Allee Autobody is your trusted expert for comprehensive vehicle care,
-            specializing in scheduled maintenance, routine and preventive services,
-            and sophisticated diagnostic repairs for all types of cars, light trucks, and SUVs.
-            We offer competitive pricing and a standout 'Fixed Forever' guarantee,
-            ensuring that parts and labor are covered for the duration you own your vehicle.
-            This unique level of commitment to quality and customer satisfaction sets Allee Autobody apart.
+        <p>Allee Autobody is your trusted expert for comprehensive vehicle care, specializing in scheduled maintenance, routine and preventive services, and sophisticated diagnostic repairs for all types of cars, light trucks, and SUVs. With our team of skilled technicians and state-of-the-art equipment, we provide competitive pricing and a standout 'Fixed Forever' guarantee, ensuring that parts and labor are covered for the duration you own your vehicle. This unique level of commitment to quality and customer satisfaction sets Allee Autobody apart as the top choice for all your automotive needs.
         </p>
-        <a href="#" class="cta-button">Discover More</a>
+        <!--<a href="#" class="cta-button">Discover More</a> -->
     </div>
 </section>
 <div class="clearfix"></div> <!-- This clears the float -->
