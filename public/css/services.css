@@ -45,9 +45,8 @@ p {
     margin-bottom: 20px;
 }
 
-/* Additional responsive design styles */
-@media (max-width: 768px) {
-    .service-container {
-        width: 95%; 
+@media screen and (max-width: 700px) {
+    .service-detail, .service-importance {
+        max-width: 100%;
     }
 }

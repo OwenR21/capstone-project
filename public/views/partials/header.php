@@ -9,7 +9,7 @@
 </head>
 <header>
 <a href="index.php">
-    <img src="public/pictures/alleeauto.jpg" width="150" height = "125">
+    <img src="public/pictures/alleeauto.jpg">
 </a>
 
 <?php require('navigation.php') ?>

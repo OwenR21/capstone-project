@@ -43,7 +43,6 @@ $css = 'public/css/home.css';
             ensuring that parts and labor are covered for the duration you own your vehicle.
             This unique level of commitment to quality and customer satisfaction sets Allee Autobody apart.
         </p>
-        <a href="#" class="cta-button">Discover More</a>
     </div>
 
 </section>
